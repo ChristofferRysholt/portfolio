@@ -1,0 +1,18 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:none;}
+	.st2{font-family:'ArialMT';}
+	.st3{font-size:140px;}
+</style>
+<g>
+	<path class="st0" d="M466.3,40c3.2,0,5.7,2.6,5.7,5.7v418.6c0,3.2-2.6,5.7-5.7,5.7H47.7c-3.2,0-5.7-2.6-5.7-5.7V45.7
+		c0-3.2,2.6-5.7,5.7-5.7H466.3 M466.3,30H47.7C39,30,32,37,32,45.7v418.6c0,8.7,7,15.7,15.7,15.7h418.6c8.7,0,15.7-7,15.7-15.7V45.7
+		C482,37,475,30,466.3,30L466.3,30z"/>
+</g>
+<rect x="96.5" y="116.5" class="st1" width="391" height="139.5"/>
+<text transform="matrix(1 0 0 1 96.5 215.8989)" class="st0 st2 st3">Place</text>
+<rect x="63" y="260.5" class="st1" width="442" height="139.5"/>
+<text transform="matrix(1 0 0 1 63 359.8989)" class="st0 st2 st3">Holder</text>
+</svg>

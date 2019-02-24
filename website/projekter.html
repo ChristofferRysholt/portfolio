@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="da-DK">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Projekter | Christoffer Rysholt</title>
+    <meta name="description" content="Se udvalgte cases fra mine skoleprojekter">
+    <meta name="keywords" content="Ambitiøs, passioneret, front-end, udvikler, praktik, praktikplads, projekter, cases">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <main>
+        <article>
+            <header>
+                <nav class="topnav" id="myTopnav">
+                    <section id="logo">
+                        <a href="index.html"><img src="images/logo.svg" alt="Rysholt - Logo"></a>
+                    </section>
+                    <a href="kontakt.html">Kontakt</a>
+                    <a href="projekter.html">Projekter</a>
+                    <a href="index.html" class="active">Forside</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </nav>
+            </header>
+
+            <section class="head-text">
+                <h1>Projekter</h1>
+                <p>Jeg har i løbet af det sidste års tid arbejdet med en række forskellige cases, i skoleprojekter. Indholdet af de viste cases har forskellige fokuspunkter inden for de forskellige kategorier; interaktion, design og kommunikation. Projekterne er blevet udarbejdet i grupper af 4 mand, med en deadline på omkring 2 uger med undervisning ved siden af. Nedenfor kan ses nogle udvalgte cases fra det sidste halve års semester af mine cases.</p>
+                <br>
+            </section>
+
+            <hr class="projekter-hr">
+
+            <section class="projects">
+                <img id="nubio" src="images/nubio-1.jpg" alt="Projekt - Nubio Web Applikation">
+                <section class="teasers-info">
+                    <h2>Headless CMS</h2>
+                    <p>Da vi i vores skoleprojekt skulle lave en web-applikation, valgte vi at gå med en løsning som var en Single Page Applikation (SPA). <br /> Derudover opbyggede vi vores applikation som et headless CMS, som gjorde brug af API'er til at genere sitets indhold.</p>
+                    <p>Se udkast: <a href="http://rysholt.com/assignments/nubio/index.html" target="_blank">Nubio web-applikation</a></p>
+                </section>
+                <section class="teasers">
+                    <span onclick="changeImageBibliotek('images/nubio-1.jpg')"><img src="images/nubio-1.jpg" alt="Projekt - Nubio Web Applikation"></span>
+                    <span onclick="changeImageBibliotek('images/nubio-2.jpg')"><img src="images/nubio-2.jpg" alt="Projekt - Nubio Web Applikation"></span>
+                    <span onclick="changeImageBibliotek('images/nubio-3.jpg')"><img src="images/nubio-3.jpg" alt="Projekt - Nubio Web Applikation"></span>
+                </section>
+            </section>
+
+
+            <section class="projects">
+                <img id="webdock" src="images/webdock-1.jpg" alt="Projekt - Webdock">
+                <section class="teasers-info">
+                    <h2>Jacob Danielsen</h2>
+                    <p>Vi fik stillet til opgave at lave en webdokumentar til musikeren <a href="http://www.jacobd.dk/" target="_blank">Jacob Danielsen</a>. Denne opgave havde selve video-dokumentarene i fokus.</p>
+                    <p class="website-a">Se udkast: <a href="https://rysholt.com/assignments/2.%20sem/webdock/index.html" target="_blank">Jacob Danielsens Webdock</a></p>
+                </section>
+                <section class="teasers">
+                    <span onclick="changeImageWebdock('images/webdock-1.jpg')"><img src="images/webdock-1.jpg" alt="Projekt - Webdock"></span>
+                    <span onclick="changeImageWebdock('images/webdock-2.jpg')"><img src="images/webdock-2.jpg" alt="Projekt - Webdock"></span>
+                    <span onclick="changeImageWebdock('images/webdock-3.jpg')"><img src="images/webdock-3.jpg" alt="Projekt - Webdock"></span>
+                </section>
+            </section>
+
+            <script src="js/projekter.js"></script>
+        </article>
+    </main>
+</body>
+
+</html>
